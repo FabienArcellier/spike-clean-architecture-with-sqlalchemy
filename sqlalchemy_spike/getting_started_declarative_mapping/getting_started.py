@@ -22,12 +22,6 @@ def main():
     session = SessionFactory()  # type: Session
     session.add(ed_user)
     session.commit()
-    print(ed_user)
-
-    ed_user.name = "Bob"
-    print(ed_user)
-
-    print(json.dumps(ed_user))
 
 
 if __name__ == "__main__":

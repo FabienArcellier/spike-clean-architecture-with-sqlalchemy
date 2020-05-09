@@ -1,5 +1,7 @@
 # Spike - Clean Architecture with SQLAlchemy
 
+*This spike is a draft*
+
 [![Build Status](https://travis-ci.org/FabienArcellier/blueprint-library-pip.svg?branch=master)](https://travis-ci.org/FabienArcellier/blueprint-library-pip)
 
 An ORM is a complex beast that frequently take control of the application
@@ -53,7 +55,6 @@ You can find the latest version to ...
 git clone https://github.com/FabienArcellier/spike-clean-architecture-with-sqlalchemy.git
 ```
 
-
 ## Getting started
 
 ### 1. Create a simple CRUD with SQLAlchemy
@@ -67,7 +68,7 @@ plain python object.
 ![](docs/simple_user_with_declarative_mapping.png)
 
 If it was a plain python object, the code should be able to serialize a `SQLAlchemy entity`. 
-It's not. The code in [`getting_started.py`](sqlalchemy_spike/getting_started_declarative_mapping/getting_started.py) will 
+It's not. The code in [`getting_started_no_serialization.py`](sqlalchemy_spike/getting_started_declarative_mapping/getting_started_no_serialization.py) will 
 fail to serialize an instance of the user at the end of the treatment.
 
 ```python
