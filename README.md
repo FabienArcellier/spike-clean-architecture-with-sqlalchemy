@@ -2,7 +2,7 @@
 
 *This spike is a draft*
 
-[![Build Status](https://travis-ci.org/FabienArcellier/blueprint-library-pip.svg?branch=master)](https://travis-ci.org/FabienArcellier/blueprint-library-pip)
+[![Build Status](https://travis-ci.org/FabienArcellier/spike-clean-architecture-with-sqlalchemy.svg?branch=master)](https://travis-ci.org/FabienArcellier/spike-clean-architecture-with-sqlalchemy)
 
 An ORM is a complex beast that frequently take control of the application
 to make programming exercice more productive. SQLAlchemy take the same road and
